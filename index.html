@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Form</title>
+    <link rel="stylesheet" href=".index.css">
+</head>
+<body id="body">
+    <h1>SIGN-UP</h1>
+    <form id="form" novalidate>
+<label>
+        <div>
+    <span class="inputdetail">Name</span>
+    <input type="text" id="name" placeholder="Name">
+    <span class="error" id="nameerror"></span>
+</div>
+</label>
+<label>
+<div class="detail">
+    <span class="inputdetail">Email</span>
+    <input type="email" id="email" placeholder="Email">
+    <span class="error" id="emailerror"></span>
+</div>
+</label>
+<label>
+<div class="detail">
+    <span class="inputdetail">Password</span>
+    <input type="password" id="password" placeholder="Password">
+    <span class="error" id="passworderror"></span>
+</div>
+</label>
+<label>
+<div class="detail">
+    <span class="inputdetail">Confirm-Password</span>
+    <input type="password" id="confirmpassword" placeholder="ConfirmPassword">
+    <span class="error" id="confirmerror"></span>
+</div>
+</label>
+<button  class="detail" type="submit">Submit Details</button>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
